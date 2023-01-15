@@ -1,0 +1,269 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Sofia+Sans&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,200&display=swap');
+
+/* Common styles */
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin-left: 170px;
+}
+
+/* Header and navigation styles */
+.topnav{
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right:200px ;
+    
+}
+.topnav ul {
+    display: flex;
+    gap: 40px;
+    
+}
+.topnav h3{
+font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color: #424242;
+    
+}
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.banner-header {
+    text-align: center;
+}
+
+.banner-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 60px;
+}
+
+.banner-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 33px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 6px 26px;
+    height: 64px;
+    margin-top: 32px;
+    border-radius: 8px;
+    background-color: #FF900E;
+}
+
+.ban-img {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+/* Team styles */
+.quick {
+    display: flex;
+    margin-top: 50px;
+    justify-items: center;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.quick-title {
+    width: 537px;
+    height: 304px;
+    margin-left: 73px;
+    margin-top: 180px;
+}
+
+.quick-sub-title {
+    width: 468px;
+    height: 106px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.quick-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+/* Feature styles */
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+    align-items: center;
+}
+
+.main-f-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sub {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.sub-title {
+    height: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 18px;
+}
+
+.title-description {
+    color: #727272;
+    width: 514px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 18px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.button {
+    height: 160px;
+    width: 260px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 45px;
+    margin-left: 550px;
+    margin-top: -180px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience {
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.feature-image img {
+    overflow: hidden;
+    width: 400px;
+    margin-left: 10px;
+}
+
+/* Some content style */
+.some-container {
+    margin-top: 100px;
+}
+
+.some-item {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    text-align: center;
+}
+
+.item {
+    border: 2px solid #FF900E;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+.some-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #424242;
+}
+
+.some-des {
+    width: 542px;
+    color: #727272;
+}
+
+.some-description {
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+}
+
+/* Sponsor content styles */
+.spon-container {
+    margin-top: 100px;
+}
+
+.spon-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.spon-description {
+    color: #727272;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.spon-logo img{
+    width: 100px;
+}
+
+.spon-logo {
+    margin-top: 30px;
+    display: flex;
+    gap: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer styles */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #FFF4E7;
+    height: 40px;
+    justify-items: center;
+    color: #424242;
+    border-radius: 8px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
