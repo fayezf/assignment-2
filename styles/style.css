@@ -205,6 +205,13 @@ a{
     padding: 50px;
 }
 
+/*------- Transform ------*/
+.item:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(60deg);
+}
+
 .some-title {
     font-weight: 500;
     font-size: 45px;
