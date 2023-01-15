@@ -165,7 +165,7 @@ a{
     font-weight: 900;
     font-size: 45px;
     margin-left: 550px;
-    margin-top: -180px;
+    margin-top: -190px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -273,4 +273,13 @@ footer {
     border-radius: 8px;
     padding-top: 25px;
     margin-bottom: 50px;
+}
+
+/* Media query styles */
+@media screen and (max-width: 576px){
+    .header, .quick, .feature-container{
+        flex-direction: column;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
